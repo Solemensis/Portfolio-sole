@@ -30,4 +30,13 @@
   font-size: 1.8rem;
   color: #888;
 }
+@media (orientation: portrait) {
+  .info {
+    font-size: 2.3rem !important;
+  }
+  .copyright {
+    font-size: 1.6rem !important;
+    bottom: 1rem !important;
+  }
+}
 </style>

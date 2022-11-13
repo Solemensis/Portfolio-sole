@@ -152,7 +152,6 @@
   grid-template-columns: 1fr 1fr;
   justify-items: center;
   align-items: center;
-
   width: 80vw;
   margin: 0 auto;
   grid-row-gap: 5rem;
@@ -222,5 +221,17 @@ ul li::marker {
 }
 .projects-section {
   margin-bottom: 13rem;
+}
+
+@media (orientation: portrait) {
+  .projects-grid {
+    width: 95vw !important;
+  }
+  .projects-heading {
+    font-size: 2.8rem !important;
+  }
+  .visit {
+    padding: 0.2rem 1.5rem !important;
+  }
 }
 </style>

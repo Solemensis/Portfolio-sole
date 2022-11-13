@@ -130,4 +130,14 @@ a:hover {
   visibility: hidden;
   margin-bottom: 5rem;
 }
+
+@media (orientation: portrait) {
+  .contact-flex {
+    justify-content: space-evenly !important;
+    width: 85vw !important;
+  }
+  .contact-image {
+    width: 26rem !important;
+  }
+}
 </style>

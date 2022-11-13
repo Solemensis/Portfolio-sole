@@ -62,6 +62,7 @@ function runRotate2() {
           </button></a
         >
       </div>
+      <!-- <img src="@/assets/images/mobile-hero.png" alt="" class="mobile-hero" /> -->
     </header>
     <p id="my-projects" class="ghost-p">ghost-p</p>
     <div
@@ -205,7 +206,7 @@ function runRotate2() {
 }
 
 .main-button-1 {
-  padding: 1.5rem 4.5rem;
+  padding: 1.5rem 1.5rem;
   background-color: transparent;
   border: 2px solid #63ff639b;
   color: #63ff639b;
@@ -214,7 +215,7 @@ function runRotate2() {
 .main-button-2 {
   /* padding: 1.5rem 2rem; */
   /* text-align: center; */
-  padding: 1.5rem 4.5rem;
+  padding: 1.5rem 1.5rem;
   background-color: transparent;
   border: 2px solid #991ccad0;
   color: #991ccad0;
@@ -253,7 +254,7 @@ function runRotate2() {
   gap: 1rem;
   position: fixed;
   left: 2rem;
-  top: 20%;
+  top: 25%;
 }
 .line {
   width: 2px;
@@ -300,5 +301,72 @@ function runRotate2() {
 }
 .insta-ico {
   filter: brightness(1.1);
+}
+
+/* ******** scroll-elements ********* */
+.mobile-hero {
+  display: none;
+}
+@media (orientation: portrait) {
+  .shape-bg {
+    height: 150vh !important;
+  }
+  .main-flex {
+    flex-direction: column;
+  }
+  .main-text {
+    width: 90% !important;
+  }
+  .main-text h2 {
+    font-size: 3.6rem !important;
+  }
+  .main-text h1 {
+    font-size: 6rem !important;
+  }
+  .main-text p {
+    font-size: 2.6rem !important;
+    margin-bottom: 4rem;
+  }
+  .main-buttons {
+    width: initial !important;
+    flex-direction: row !important;
+  }
+  .main-buttons button {
+    width: 20rem !important;
+  }
+  .main-hero-image-box {
+    /* display: none !important; */
+    position: absolute !important;
+  }
+
+  .rotate-on1 {
+    transform: translate(-50%, -48.4%) rotate(-53deg) rotate(-180deg) !important;
+    opacity: 0.1 !important;
+    z-index: -50 !important;
+    filter: blur(4px) !important;
+  }
+  .rotate-on2 {
+    transform: translate(-50%, -50%) rotate(3deg) rotate(-175deg) !important;
+    opacity: 0.1 !important;
+    z-index: -50 !important;
+    filter: blur(4px) !important;
+  }
+  .main-image-1 {
+    opacity: 0.1 !important;
+    width: 60rem !important;
+  }
+  .main-image-2 {
+    opacity: 0.1 !important;
+    width: 40.3rem !important;
+  }
+
+  .mobile-hero {
+    display: block !important;
+    width: 45rem;
+    margin-top: 20rem;
+  }
+  .fixed-contact {
+    display: none !important;
+  }
 }
 </style>

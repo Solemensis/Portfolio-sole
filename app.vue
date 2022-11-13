@@ -82,4 +82,74 @@ body {
 ::-webkit-scrollbar-thumb:active {
   background-color: hsl(0, 0%, 33%);
 }
+
+@media (min-width: 2500px) {
+  html {
+    font-size: 110%;
+  }
+}
+
+@media (max-width: 2499px) {
+  html {
+    font-size: 100%;
+  }
+}
+
+@media (max-width: 2300px) {
+  html {
+    font-size: 95%;
+  }
+}
+
+@media (max-width: 2100px) {
+  html {
+    font-size: 85%;
+  }
+}
+
+@media (max-width: 1920px) {
+  html {
+    font-size: 77%;
+  }
+}
+
+@media (max-width: 1820px) {
+  html {
+    font-size: 70%;
+  }
+}
+
+@media (max-width: 1720px) {
+  html {
+    font-size: 66%;
+  }
+}
+
+@media (max-width: 1580px) {
+  html {
+    font-size: 60%;
+  }
+}
+
+@media (max-width: 1280px) {
+  html {
+    font-size: 50%;
+  }
+}
+
+@media (max-width: 1024px) {
+  html {
+    font-size: 40%;
+  }
+}
+@media (max-width: 800px) {
+  html {
+    font-size: 32%;
+  }
+}
+@media (orientation: portrait) {
+  html {
+    font-size: 30%;
+  }
+}
 </style>
