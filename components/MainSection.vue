@@ -113,9 +113,7 @@ function runRotate2() {
 .main-text h2 {
   font-size: 3rem;
   margin-bottom: -0.3rem;
-  background: -webkit-linear-gradient(right, #991cca, #9d50bb);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: rgb(148, 14, 188);
 }
 
 .main-text h1 {
@@ -316,17 +314,17 @@ function runRotate2() {
     flex-direction: column;
   }
   .main-text {
-    width: 90% !important;
+    width: 95% !important;
   }
   .main-text h2 {
-    font-size: 3.6rem !important;
+    font-size: 3.8rem !important;
   }
   .main-text h1 {
-    font-size: 6rem !important;
+    font-size: 7rem !important;
   }
   .main-text p {
-    font-size: 2.6rem !important;
-    margin-bottom: 4rem;
+    font-size: 2.8rem !important;
+    margin-bottom: 5rem;
   }
   .main-buttons {
     width: initial !important;
@@ -334,6 +332,7 @@ function runRotate2() {
   }
   .main-buttons button {
     width: 20rem !important;
+    font-size: 2.7rem !important;
   }
   .main-button-1 {
     border: 1px solid #63ff639b !important;
