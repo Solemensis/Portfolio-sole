@@ -113,7 +113,7 @@ function runRotate2() {
 .main-text h2 {
   font-size: 3rem;
   margin-bottom: -0.3rem;
-  color: rgb(148, 14, 188);
+  color: #ff77afe0;
 }
 
 .main-text h1 {
@@ -215,8 +215,8 @@ function runRotate2() {
   /* text-align: center; */
   padding: 1.5rem 1.5rem;
   background-color: transparent;
-  border: 2px solid #991ccad0;
-  color: #991ccad0;
+  border: 2px solid #ff77afe0;
+  color: #ff77afe0;
 
   font-size: 2.5rem;
 }
@@ -231,8 +231,11 @@ function runRotate2() {
     border: 2px solid #63ff63ba;
   }
   .main-button-2:hover {
-    color: #991ccaea;
-    border: 2px solid #991ccaea;
+    border: 2px solid #ff77afe0;
+    color: #ff77afe0;
+
+    /* color: #991ccaea;
+    border: 2px solid #991ccaea; */
   }
 }
 
@@ -314,7 +317,7 @@ function runRotate2() {
     flex-direction: column;
   }
   .main-text {
-    width: 95% !important;
+    width: 100% !important;
   }
   .main-text h2 {
     font-size: 3.8rem !important;
@@ -332,13 +335,14 @@ function runRotate2() {
   }
   .main-buttons button {
     width: 20rem !important;
+    height: 7rem !important;
     font-size: 2.7rem !important;
   }
   .main-button-1 {
     border: 1px solid #63ff639b !important;
   }
   .main-button-2 {
-    border: 1px solid #991ccad0 !important;
+    border: 1px solid #ff77afe0 !important;
   }
   .main-hero-image-box {
     /* display: none !important; */
