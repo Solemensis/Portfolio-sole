@@ -219,6 +219,7 @@ function runRotate2() {
   background-color: transparent;
   border: 2px solid #991ccad0;
   color: #991ccad0;
+
   font-size: 2.5rem;
 }
 
@@ -334,6 +335,12 @@ function runRotate2() {
   .main-buttons button {
     width: 20rem !important;
   }
+  .main-button-1 {
+    border: 1px solid #63ff639b !important;
+  }
+  .main-button-2 {
+    border: 1px solid #991ccad0 !important;
+  }
   .main-hero-image-box {
     /* display: none !important; */
     position: absolute !important;
@@ -341,22 +348,22 @@ function runRotate2() {
 
   .rotate-on1 {
     transform: translate(-50%, -48.4%) rotate(-53deg) rotate(-180deg) !important;
-    opacity: 0.1 !important;
+    opacity: 0.2 !important;
     z-index: -50 !important;
     filter: blur(4px) !important;
   }
   .rotate-on2 {
     transform: translate(-50%, -50%) rotate(3deg) rotate(-175deg) !important;
-    opacity: 0.1 !important;
+    opacity: 0.2 !important;
     z-index: -50 !important;
     filter: blur(4px) !important;
   }
   .main-image-1 {
-    opacity: 0.1 !important;
+    opacity: 0.2 !important;
     width: 60rem !important;
   }
   .main-image-2 {
-    opacity: 0.1 !important;
+    opacity: 0.2 !important;
     width: 40.3rem !important;
   }
 
