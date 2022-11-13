@@ -10,7 +10,6 @@
     <div class="projects-grid">
       <a class="photo-anchor" target="_blank" href="https://emaria.vercel.app/">
         <img
-          data-aos-once="true"
           data-aos="fade-up"
           data-aos-duration="1800"
           data-aos-easing="ease-out-back"
@@ -20,7 +19,6 @@
         />
       </a>
       <div
-        data-aos-once="true"
         data-aos="fade-up"
         data-aos-duration="1800"
         data-aos-easing="ease-out-back"
@@ -49,7 +47,6 @@
         href="https://solemensis.github.io/Cloud-gaming-services/"
       >
         <img
-          data-aos-once="true"
           data-aos="fade-up"
           data-aos-duration="1800"
           data-aos-easing="ease-out-back"
@@ -57,7 +54,6 @@
           src="@/assets/images/cloud-gaming-services-photo.jpg"
       /></a>
       <div
-        data-aos-once="true"
         data-aos="fade-up"
         data-aos-duration="1800"
         data-aos-easing="ease-out-back"
@@ -83,7 +79,6 @@
         href="https://unique-bublanina-f4b6de.netlify.app/"
       >
         <img
-          data-aos-once="true"
           data-aos="fade-up"
           data-aos-duration="1800"
           data-aos-easing="ease-out-back"
@@ -92,7 +87,6 @@
           alt=""
       /></a>
       <div
-        data-aos-once="true"
         data-aos="fade-up"
         data-aos-duration="1800"
         data-aos-easing="ease-out-back"
@@ -115,7 +109,6 @@
         target="_blank"
         href="https://solemensis.github.io/Woodhelm/"
         ><img
-          data-aos-once="true"
           data-aos="fade-up"
           data-aos-duration="1800"
           data-aos-easing="ease-out-back"
@@ -123,7 +116,6 @@
           src="@/assets/images/woodhelm-photo.jpg"
       /></a>
       <div
-        data-aos-once="true"
         data-aos="fade-up"
         data-aos-duration="1800"
         data-aos-easing="ease-out-back"
