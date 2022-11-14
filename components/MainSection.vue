@@ -114,6 +114,7 @@ function runRotate2() {
   font-size: 3rem;
   margin-bottom: -0.3rem;
   color: #ff77afe0;
+  font-weight: 300;
 }
 
 .main-text h1 {

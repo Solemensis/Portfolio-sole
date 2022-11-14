@@ -145,7 +145,8 @@
   color: #ddd;
 }
 .symbol-span {
-  color: rgb(160, 88, 255);
+  /* color: rgb(160, 88, 255); */
+  color: #ff77b0b7;
 }
 .projects-grid {
   display: grid;
