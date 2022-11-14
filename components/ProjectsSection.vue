@@ -8,16 +8,19 @@
       <span class="symbol-span">⫸</span>
     </h2>
     <div class="projects-grid">
-      <a class="photo-anchor" target="_blank" href="https://emaria.vercel.app/">
+      <a
+        class="photo-anchor"
+        target="_blank"
+        href="https://unique-bublanina-f4b6de.netlify.app/"
+      >
         <img
           data-aos="fade-right"
           data-aos-duration="1800"
           data-aos-easing="ease-out-back"
           class="projects-img"
-          src="@/assets/images/1.jpg"
+          src="@/assets/images/3.jpg"
           alt=""
-        />
-      </a>
+      /></a>
       <div
         data-aos="fade-right"
         data-aos-duration="1800"
@@ -25,18 +28,13 @@
         data-aos-delay="300"
         class="projects-text-box"
       >
-        <h3 class="projects-heading">Emaria</h3>
+        <h3 class="projects-heading">Drink e-commerce</h3>
         <ul>
-          <li>Fully functional responsive general e-commerce website.</li>
+          <li>Responsive drink e-commerce website.</li>
           <li>Fresh & simple ui/ux design.</li>
-          <!-- <li>
-            Create account, add products to your cart. (buyouts not implemented,
-            i don't want to create money transaction system for a reference
-            website)
-          </li> -->
         </ul>
         <div class="visit-box">
-          <a target="_blank" href="https://emaria.vercel.app/"
+          <a target="_blank" href="https://unique-bublanina-f4b6de.netlify.app/"
             ><button class="visit">Visit</button></a
           >
         </div>
@@ -73,19 +71,16 @@
           >
         </div>
       </div>
-      <a
-        class="photo-anchor"
-        target="_blank"
-        href="https://unique-bublanina-f4b6de.netlify.app/"
-      >
+      <a class="photo-anchor" target="_blank" href="https://emaria.vercel.app/">
         <img
           data-aos="fade-right"
           data-aos-duration="1800"
           data-aos-easing="ease-out-back"
           class="projects-img"
-          src="@/assets/images/3.jpg"
+          src="@/assets/images/1.jpg"
           alt=""
-      /></a>
+        />
+      </a>
       <div
         data-aos="fade-right"
         data-aos-duration="1800"
@@ -93,17 +88,23 @@
         data-aos-delay="300"
         class="projects-text-box"
       >
-        <h3 class="projects-heading">Drink e-commerce</h3>
+        <h3 class="projects-heading">Emaria</h3>
         <ul>
-          <li>Responsive drink e-commerce website.</li>
+          <li>Fully functional responsive general e-commerce website.</li>
           <li>Fresh & simple ui/ux design.</li>
+          <!-- <li>
+            Create account, add products to your cart. (buyouts not implemented,
+            i don't want to create money transaction system for a reference
+            website)
+          </li> -->
         </ul>
         <div class="visit-box">
-          <a target="_blank" href="https://unique-bublanina-f4b6de.netlify.app/"
+          <a target="_blank" href="https://emaria.vercel.app/"
             ><button class="visit">Visit</button></a
           >
         </div>
       </div>
+
       <a
         class="photo-anchor"
         target="_blank"
