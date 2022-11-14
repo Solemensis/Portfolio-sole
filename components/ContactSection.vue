@@ -30,7 +30,9 @@
             src="@/assets/images/fiverr.svg"
             alt=""
           />
-          <a target="_blank" href="https://www.fiverr.com/solemensis"
+          <a
+            target="_blank"
+            href="https://www.fiverr.com/solemensis/create-lightning-fast-functional-aesthetically-pleasing-websites-and-webapps"
             >/solemensis</a
           >
         </div>

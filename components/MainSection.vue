@@ -79,7 +79,9 @@ function runRotate2() {
           src="@/assets/images/mail.svg"
           alt=""
       /></a>
-      <a target="_blank" href="https://www.fiverr.com/solemensis"
+      <a
+        target="_blank"
+        href="https://www.fiverr.com/solemensis/create-lightning-fast-functional-aesthetically-pleasing-websites-and-webapps"
         ><img
           class="contact-ico fiverr-ico"
           src="@/assets/images/fiverr.svg"

@@ -14,7 +14,7 @@
           data-aos-duration="1800"
           data-aos-easing="ease-out-back"
           class="projects-img"
-          src="@/assets/images/emaria-photo.jpg"
+          src="@/assets/images/1.jpg"
           alt=""
         />
       </a>
@@ -51,7 +51,7 @@
           data-aos-duration="1800"
           data-aos-easing="ease-out-back"
           class="projects-img"
-          src="@/assets/images/cloud-gaming-services-photo.jpg"
+          src="@/assets/images/2.jpg"
       /></a>
       <div
         data-aos="fade-right"
@@ -83,7 +83,7 @@
           data-aos-duration="1800"
           data-aos-easing="ease-out-back"
           class="projects-img"
-          src="@/assets/images/drink-e-commerce-photo.jpg"
+          src="@/assets/images/3.jpg"
           alt=""
       /></a>
       <div
@@ -113,7 +113,7 @@
           data-aos-duration="1800"
           data-aos-easing="ease-out-back"
           class="projects-img"
-          src="@/assets/images/woodhelm-photo.jpg"
+          src="@/assets/images/4.jpg"
       /></a>
       <div
         data-aos="fade-right"
