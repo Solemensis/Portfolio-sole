@@ -152,6 +152,7 @@ function runRotate2() {
   opacity: 0.2;
   transition: 0.3s;
   filter: blur(4px);
+  will-change: filter;
 }
 .main-image-1 {
   width: 45rem;
