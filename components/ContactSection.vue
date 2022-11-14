@@ -88,13 +88,13 @@
   gap: 4rem;
 }
 a {
-  color: rgb(255, 182, 46);
+  color: #ffb62e;
   transition: 0.3s;
   font-size: 3rem;
 }
 a:hover {
   cursor: pointer;
-  color: rgb(201, 130, 0);
+  color: #c98200;
 }
 .contact-text p {
   font-size: 2.5rem;

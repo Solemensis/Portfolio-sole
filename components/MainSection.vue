@@ -79,7 +79,7 @@ function runRotate2() {
           src="@/assets/images/mail.svg"
           alt=""
       /></a>
-      <a target="_blank" href="#"
+      <a target="_blank" href="https://www.fiverr.com/solemensis"
         ><img
           class="contact-ico fiverr-ico"
           src="@/assets/images/fiverr.svg"
@@ -120,6 +120,7 @@ function runRotate2() {
   font-size: 5.6rem;
   margin-bottom: 2rem;
   color: #eee;
+  line-height: 1.1;
 }
 .span-color-1 {
   color: #63ff63e0;

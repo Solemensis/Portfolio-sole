@@ -3,14 +3,14 @@
 <template>
   <section class="projects-section">
     <h2 class="projects-main-heading">
-      <!-- <span class="symbol-span">⫷</span> -->
-      🧁 My Projects
-      <!-- <span class="symbol-span">⫸</span> -->
+      <span class="symbol-span">⫷</span>
+      My Projects
+      <span class="symbol-span">⫸</span>
     </h2>
     <div class="projects-grid">
       <a class="photo-anchor" target="_blank" href="https://emaria.vercel.app/">
         <img
-          data-aos="fade-up"
+          data-aos="fade-right"
           data-aos-duration="1800"
           data-aos-easing="ease-out-back"
           class="projects-img"
@@ -19,10 +19,10 @@
         />
       </a>
       <div
-        data-aos="fade-up"
+        data-aos="fade-right"
         data-aos-duration="1800"
         data-aos-easing="ease-out-back"
-        data-aos-delay="250"
+        data-aos-delay="300"
         class="projects-text-box"
       >
         <h3 class="projects-heading">Emaria</h3>
@@ -47,17 +47,17 @@
         href="https://solemensis.github.io/Cloud-gaming-services/"
       >
         <img
-          data-aos="fade-up"
+          data-aos="fade-right"
           data-aos-duration="1800"
           data-aos-easing="ease-out-back"
           class="projects-img"
           src="@/assets/images/cloud-gaming-services-photo.jpg"
       /></a>
       <div
-        data-aos="fade-up"
+        data-aos="fade-right"
         data-aos-duration="1800"
         data-aos-easing="ease-out-back"
-        data-aos-delay="250"
+        data-aos-delay="300"
         class="projects-text-box"
       >
         <h3 class="projects-heading">Cloud Gaming Services</h3>
@@ -79,7 +79,7 @@
         href="https://unique-bublanina-f4b6de.netlify.app/"
       >
         <img
-          data-aos="fade-up"
+          data-aos="fade-right"
           data-aos-duration="1800"
           data-aos-easing="ease-out-back"
           class="projects-img"
@@ -87,10 +87,10 @@
           alt=""
       /></a>
       <div
-        data-aos="fade-up"
+        data-aos="fade-right"
         data-aos-duration="1800"
         data-aos-easing="ease-out-back"
-        data-aos-delay="250"
+        data-aos-delay="300"
         class="projects-text-box"
       >
         <h3 class="projects-heading">Drink e-commerce</h3>
@@ -109,17 +109,17 @@
         target="_blank"
         href="https://solemensis.github.io/Woodhelm/"
         ><img
-          data-aos="fade-up"
+          data-aos="fade-right"
           data-aos-duration="1800"
           data-aos-easing="ease-out-back"
           class="projects-img"
           src="@/assets/images/woodhelm-photo.jpg"
       /></a>
       <div
-        data-aos="fade-up"
+        data-aos="fade-right"
         data-aos-duration="1800"
         data-aos-easing="ease-out-back"
-        data-aos-delay="250"
+        data-aos-delay="300"
         class="projects-text-box"
       >
         <h3 class="projects-heading">Woodhelm</h3>
@@ -141,7 +141,7 @@
   font-size: 6rem;
   width: 100%;
   text-align: center;
-  margin-bottom: 8rem;
+  margin-bottom: 10rem;
   color: #ddd;
 }
 .symbol-span {
@@ -160,7 +160,7 @@
   width: 90%;
 }
 .projects-img {
-  width: 95%;
+  width: 88%;
   border-radius: 0.5rem;
   transition: 0.3s;
   box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
@@ -185,7 +185,8 @@
 .projects-heading {
   margin-bottom: 1rem;
   font-size: 4rem;
-  color: rgb(114, 135, 255);
+  /* color: rgb(114, 135, 255); */
+  color: #ffb62e;
 }
 ul li {
   color: #888;
@@ -196,20 +197,26 @@ ul li {
 ul li::marker {
   content: '➜  ';
   font-size: 2rem;
-  color: #db65ff;
+  color: #ff77afe0;
 }
 .visit-box {
   margin-top: 1.6rem;
   display: flex;
   justify-content: flex-end;
+  position: absolute;
+  right: 0;
+  bottom: -1rem;
 }
 
 .visit {
   background-color: transparent;
-  border: #db65ff 1px solid;
-  padding: 0.3rem 2rem;
-  color: #db65ff;
-  font-size: 2rem;
+  /* border: #db65ff 1px solid;
+  color: #db65ff; */
+  border: #ff77afe0 1px solid;
+  color: #ff77afe0;
+  padding: 0.3rem 1.5rem;
+
+  font-size: 1.8rem;
   border-radius: 0.4rem;
   transition: 0.2s;
 }
