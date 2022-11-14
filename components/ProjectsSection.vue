@@ -163,7 +163,7 @@
 }
 .projects-img {
   width: 88%;
-  border-radius: 0.5rem;
+  border-radius: 1rem;
   transition: 0.3s;
   box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
   filter: brightness(0.8);
