@@ -81,6 +81,7 @@
   justify-content: space-around;
   width: 80vw;
   margin: 0 auto;
+  position: relative;
 }
 .contact-text {
   color: #ddd;

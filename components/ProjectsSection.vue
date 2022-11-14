@@ -26,7 +26,7 @@
         data-aos-duration="1800"
         data-aos-easing="ease-out-back"
         data-aos-delay="300"
-        class="projects-text-box"
+        class="projects-text-box projects-text-box-1"
       >
         <h3 class="projects-heading">Drink e-commerce</h3>
         <ul>
@@ -56,7 +56,7 @@
         data-aos-duration="1800"
         data-aos-easing="ease-out-back"
         data-aos-delay="300"
-        class="projects-text-box"
+        class="projects-text-box projects-text-box-2"
       >
         <h3 class="projects-heading">Cloud Gaming Services</h3>
         <ul>
@@ -86,7 +86,7 @@
         data-aos-duration="1800"
         data-aos-easing="ease-out-back"
         data-aos-delay="300"
-        class="projects-text-box"
+        class="projects-text-box projects-text-box-3"
       >
         <h3 class="projects-heading">Emaria</h3>
         <ul>
@@ -121,7 +121,7 @@
         data-aos-duration="1800"
         data-aos-easing="ease-out-back"
         data-aos-delay="300"
-        class="projects-text-box"
+        class="projects-text-box projects-text-box-4"
       >
         <h3 class="projects-heading">Woodhelm</h3>
         <ul>
@@ -157,9 +157,12 @@
   width: 80vw;
   margin: 0 auto;
   grid-row-gap: 5rem;
+  position: relative;
 }
 .photo-anchor {
   width: 90%;
+  display: flex;
+  justify-content: center;
 }
 .projects-img {
   width: 88%;
@@ -180,10 +183,14 @@
 
 .projects-text-box {
   width: 85%;
-  padding: 0 1rem;
-  padding: 3rem 0;
+  height: 100%;
   position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 1rem;
 }
+
 .projects-heading {
   margin-bottom: 1rem;
   font-size: 4rem;
@@ -207,7 +214,7 @@ ul li::marker {
   justify-content: flex-end;
   position: absolute;
   right: 0;
-  bottom: -1rem;
+  bottom: 1rem;
 }
 
 .visit {
@@ -239,8 +246,11 @@ ul li::marker {
   .projects-heading {
     font-size: 2.8rem !important;
   }
+  .visit-box {
+    bottom: 0 !important;
+  }
   .visit {
-    padding: 0.2rem 1.5rem !important;
+    padding: 0 1rem !important;
   }
 }
 </style>
