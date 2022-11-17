@@ -32,6 +32,7 @@
         <ul>
           <li>Responsive drink e-commerce website.</li>
           <li>Fresh & simple ui/ux design.</li>
+          <li>Building blocks: Vue3, Pinia, Firebase</li>
         </ul>
         <div class="visit-box">
           <a target="_blank" href="https://unique-bublanina-f4b6de.netlify.app/"
@@ -61,6 +62,7 @@
         <h3 class="projects-heading">Cloud Gaming Services</h3>
         <ul>
           <li>Responsive landing page of a digital product.</li>
+          <li>Building blocks: Html, Css, Javascript</li>
         </ul>
         <div class="visit-box">
           <a
@@ -92,6 +94,7 @@
         <ul>
           <li>Fully functional responsive general e-commerce website.</li>
           <li>Fresh & simple ui/ux design.</li>
+          <li>Building blocks: Nuxt3, Pinia, Supabase, Directus</li>
           <!-- <li>
             Create account, add products to your cart. (buyouts not implemented,
             i don't want to create money transaction system for a reference
@@ -126,6 +129,7 @@
         <h3 class="projects-heading">Woodhelm</h3>
         <ul>
           <li>Auditory/Visual ambiance mixer webapp.</li>
+          <li>Building blocks: Html, Css, Javascript</li>
         </ul>
         <div class="visit-box">
           <a target="_blank" href="https://solemensis.github.io/Woodhelm/"
