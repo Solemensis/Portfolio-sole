@@ -328,11 +328,14 @@ function runRotate2() {
     font-size: 3.8rem !important;
   }
   .main-text h1 {
-    font-size: 7rem !important;
+    font-size: clamp(2rem, 9vw, 8.5rem) !important;
+    /* font-size: 7rem !important; */
   }
   .main-text p {
     font-size: 2.8rem !important;
-    margin-bottom: 5rem;
+    /* margin: 0 3rem; */
+    margin: 0 clamp(0.5rem, 2vw, 15rem) !important;
+    margin-bottom: 5rem !important;
   }
   .main-buttons {
     width: initial !important;
