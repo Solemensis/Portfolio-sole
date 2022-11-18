@@ -94,10 +94,83 @@ function runRotate2() {
           alt=""
       /></a>
     </div>
+    <div class="fixed-blobs">
+      <div class="tk-blob blob-1">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440.7 428.7">
+          <path
+            d="M410.6 78.8c36 52.5 36.1 126 19.2 194C412.9 340.7 379 403 330 421.9c-49 19-113.1-5.3-178.6-34C85.8 359.2 18.7 326.1 3.5 276.4-11.7 226.7 25 160.3 71.7 105.3 118.3 50.3 174.8 6.8 239 .7c64.1-6 135.7 25.5 171.6 78.1z"
+          ></path>
+        </svg>
+      </div>
+
+      <div class="tk-blob blob-2" style="--fill: #009688">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 317.5 353.7">
+          <path
+            d="M291.8 55.3c30.4 39.9 30.7 102 17 160.4-13.8 58.3-41.6 112.9-84 130.9s-99.3-.6-137-30C50.2 287.1 32 246.9 17 200.5 2.1 154.1-9.6 101.4 11.5 63.6 32.6 25.8 86.6 2.8 143.8.2c57.2-2.6 117.6 15.2 148 55.1z"
+          ></path>
+        </svg>
+      </div>
+      <div class="tk-blob blob-3" style="--fill: #ffc107">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 428.4 394.6">
+          <path
+            d="M369.4 109.2c43.2 55.3 71.5 121.4 53.4 167.3-18.2 45.8-82.8 71.4-140.5 91.7-57.8 20.4-108.7 35.4-152.9 20.3C85.1 373.4 47.6 328.3 23.2 267c-24.5-61.2-35.8-138.6-2.5-191.7C54.1 22.2 132-6.6 200 1.3c68 7.9 126.1 52.5 169.4 107.9z"
+          ></path>
+        </svg>
+      </div>
+    </div>
   </section>
 </template>
 
 <style scoped>
+/* ******** fixed-blobs ********* */
+.fixed-blobs {
+  position: fixed;
+  left: 47%;
+  top: 44%;
+  transform: translate(-50%, -50%) rotate(10deg);
+  width: 85vw;
+  height: 65vh;
+  z-index: -9999;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  justify-items: center;
+  align-items: center;
+}
+.tk-blob {
+  width: 19rem;
+  filter: blur(90px);
+  /* filter: blur(65px); */
+  opacity: 0.3;
+  animation: blob-move 6s infinite alternate ease-out;
+}
+
+.blob-1 {
+  animation-delay: 3000ms;
+}
+.blob-2 {
+  grid-column-start: 2;
+  grid-row-start: 3;
+  animation: blob-move 6s infinite alternate ease-out;
+}
+.blob-3 {
+  opacity: 0.25;
+  grid-column-start: 3;
+  animation: blob-move 6s infinite alternate ease-out;
+  animation-delay: 1500ms;
+}
+
+@keyframes blob-move {
+  0% {
+    transform: scale(1) translate(0);
+  }
+  50% {
+    transform: scale(1.2) translate(30%, 30%);
+  }
+  100% {
+    transform: scale(1.4) translate(0%, 45%);
+  }
+}
 /* ******** parts ********* */
 .main-flex {
   width: 80vw;
@@ -315,6 +388,10 @@ function runRotate2() {
   display: none;
 }
 @media (orientation: portrait) {
+  .tk-blob {
+    filter: blur(55px) !important;
+  }
+
   .shape-bg {
     height: 150vh !important;
   }
