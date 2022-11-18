@@ -94,7 +94,7 @@ function runRotate2() {
           alt=""
       /></a>
     </div>
-    <div class="fixed-blobs">
+    <div data-aos="zoom-down" data-aos-duration="1600" class="fixed-blobs">
       <div class="tk-blob blob-1">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440.7 428.7">
           <path
@@ -127,7 +127,7 @@ function runRotate2() {
   position: fixed;
   left: 47%;
   top: 44%;
-  transform: translate(-50%, -50%) rotate(10deg);
+  transform: translate(-50%, -50%) rotate(10deg) !important;
   width: 85vw;
   height: 65vh;
   z-index: -9999;
