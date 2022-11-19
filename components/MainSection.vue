@@ -394,8 +394,18 @@ function runRotate2() {
   display: none;
 }
 @media (orientation: portrait) {
-  .tk-blob {
-    filter: blur(55px) !important;
+  .fixed-blobs {
+    left: 40% !important;
+    top: 50% !important;
+  }
+
+  .blob {
+    filter: blur(75px) !important;
+    opacity: 0.5 !important;
+    width: 23rem !important;
+  }
+  .blob-3 {
+    opacity: 0.4 !important;
   }
 
   .shape-bg {
