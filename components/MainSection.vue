@@ -128,10 +128,10 @@ function runRotate2() {
 /* ******** fixed-blobs ********* */
 .fixed-blobs {
   position: fixed;
-  left: 50%;
-  top: 54%;
-  /* left: 47%; */
-  /* top: 44%; */
+  /* left: 50%;
+  top: 54%; */
+  left: 47%;
+  top: 44%;
   transform: translate(-50%, -50%) rotate(10deg) !important;
   width: 85vw;
   height: 65vh;
@@ -143,13 +143,13 @@ function runRotate2() {
   align-items: center;
 }
 .blob {
-  width: 25rem;
+  /* width: 25rem;
   filter: blur(90px);
-  opacity: 0.23;
-  /* width: 19rem; */
-  /* filter: blur(35px); */
-  /* opacity: 0.15; */
-  /* animation: blob-move 6s infinite alternate ease-out; */
+  opacity: 0.23; */
+  width: 19rem;
+  filter: blur(20px);
+  opacity: 0.15;
+  animation: blob-move 4s infinite alternate ease-out;
 }
 
 .blob-1 {
@@ -160,7 +160,7 @@ function runRotate2() {
   grid-row-start: 3;
 }
 .blob-3 {
-  opacity: 0.16;
+  opacity: 0.11;
   /* opacity: 0.11; */
   grid-column-start: 3;
   animation-delay: 1500ms;
@@ -395,17 +395,16 @@ function runRotate2() {
 }
 @media (orientation: portrait) {
   .fixed-blobs {
-    left: 40% !important;
-    top: 50% !important;
+    left: 37% !important;
+    top: 38% !important;
   }
 
   .blob {
-    filter: blur(75px) !important;
-    opacity: 0.5 !important;
-    width: 23rem !important;
+    opacity: 0.2 !important;
+    width: 20rem !important;
   }
   .blob-3 {
-    opacity: 0.4 !important;
+    opacity: 0.16 !important;
   }
 
   .shape-bg {
