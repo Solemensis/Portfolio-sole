@@ -98,7 +98,7 @@ function runRotate2() {
       <div class="blob blob-1">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440.7 428.7">
           <path
-            fill="#692dbd"
+            fill="#ff9505"
             d="M410.6 78.8c36 52.5 36.1 126 19.2 194C412.9 340.7 379 403 330 421.9c-49 19-113.1-5.3-178.6-34C85.8 359.2 18.7 326.1 3.5 276.4-11.7 226.7 25 160.3 71.7 105.3 118.3 50.3 174.8 6.8 239 .7c64.1-6 135.7 25.5 171.6 78.1z"
           ></path>
         </svg>
@@ -115,7 +115,8 @@ function runRotate2() {
       <div class="blob blob-3" style="">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 428.4 394.6">
           <path
-            fill="#cc9a06"
+            fill="#692dbd
+           "
             d="M369.4 109.2c43.2 55.3 71.5 121.4 53.4 167.3-18.2 45.8-82.8 71.4-140.5 91.7-57.8 20.4-108.7 35.4-152.9 20.3C85.1 373.4 47.6 328.3 23.2 267c-24.5-61.2-35.8-138.6-2.5-191.7C54.1 22.2 132-6.6 200 1.3c68 7.9 126.1 52.5 169.4 107.9z"
           ></path>
         </svg>
@@ -149,19 +150,18 @@ function runRotate2() {
   width: 19rem;
   filter: blur(20px);
   opacity: 0.15;
-  animation: blob-move 4s infinite alternate ease-out;
+  animation: blob-move 8s infinite alternate ease-out;
 }
 
 .blob-1 {
   animation-delay: 3000ms;
+  opacity: 0.09;
 }
 .blob-2 {
   grid-column-start: 2;
   grid-row-start: 3;
 }
 .blob-3 {
-  opacity: 0.11;
-  /* opacity: 0.11; */
   grid-column-start: 3;
   animation-delay: 1500ms;
 }
