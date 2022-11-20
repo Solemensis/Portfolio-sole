@@ -199,7 +199,7 @@
   margin-bottom: 1rem;
   font-size: 4rem;
   /* color: rgb(114, 135, 255); */
-  color: #ffb62e;
+  color: #ffb62ecd;
 }
 ul li {
   color: #888;
@@ -208,7 +208,7 @@ ul li {
   margin-bottom: 0.6rem;
 }
 ul li::marker {
-  content: '➜  ';
+  content: "➜  ";
   font-size: 2rem;
   color: #ff77afe0;
 }
