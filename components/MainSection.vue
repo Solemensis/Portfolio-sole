@@ -228,7 +228,7 @@ function runRotate2() {
 
 .main-text p {
   font-size: 2.3rem;
-  color: #aaa;
+  color: #bbb;
 }
 
 /* ******** images ********* */

@@ -202,7 +202,7 @@
   color: #ffb62ecd;
 }
 ul li {
-  color: #888;
+  color: #bbb;
   font-size: 2.5rem;
   line-height: 1.1;
   margin-bottom: 0.6rem;
