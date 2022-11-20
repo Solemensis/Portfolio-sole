@@ -40,6 +40,21 @@ function runRotate2() {
           class="main-image-2"
           src="@/assets/images/sword-1.webp"
         />
+        <img
+          :class="{
+            'rotate-on3': rotate1,
+          }"
+          class="main-image-3"
+          src="@/assets/images/sword-2.webp"
+        />
+
+        <img
+          :class="{
+            'rotate-on4': rotate2,
+          }"
+          class="main-image-4"
+          src="@/assets/images/sword-1.webp"
+        />
       </div>
       <div class="main-buttons">
         <a href="#my-projects"
@@ -98,7 +113,7 @@ function runRotate2() {
       <div class="blob blob-1">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440.7 428.7">
           <path
-            fill="#fee440"
+            fill="#fe2440"
             d="M410.6 78.8c36 52.5 36.1 126 19.2 194C412.9 340.7 379 403 330 421.9c-49 19-113.1-5.3-178.6-34C85.8 359.2 18.7 326.1 3.5 276.4-11.7 226.7 25 160.3 71.7 105.3 118.3 50.3 174.8 6.8 239 .7c64.1-6 135.7 25.5 171.6 78.1z"
           ></path>
         </svg>
@@ -230,29 +245,47 @@ function runRotate2() {
   top: 50%;
   opacity: 0.2;
   transition: 0.3s;
-  filter: blur(4px);
-  will-change: filter;
+  filter: blur(3px);
 }
-.main-image-1 {
+.main-image-3,
+.main-image-4 {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  opacity: 0;
+  transition: 0.3s;
+  /* filter: blur(4px); */
+}
+.main-image-1,
+.main-image-3 {
   width: 45rem;
   transform: translate(-50%, -48.4%) rotate(-53deg) rotate(-180deg);
 }
-.main-image-2 {
+.main-image-2,
+.main-image-4 {
   width: 29.7rem;
   transform: translate(-50%, -50%) rotate(3deg) rotate(-175deg);
 }
 
 .rotate-on1 {
   transform: translate(-50%, -50%) scale(1.02) rotate(-225deg);
-  opacity: 1;
+  opacity: 0;
   z-index: 5;
-  filter: blur(0);
 }
 .rotate-on2 {
   transform: translate(-50%, -51%) scale(1.02) rotate(-180deg);
+  opacity: 0;
+  z-index: 5;
+}
+.rotate-on3 {
+  transform: translate(-50%, -50%) scale(1.02) rotate(-225deg);
   opacity: 1;
   z-index: 5;
-  filter: blur(0);
+}
+.rotate-on4 {
+  transform: translate(-50%, -51%) scale(1.02) rotate(-180deg);
+  opacity: 1;
+  z-index: 5;
 }
 
 .shape-bg {
@@ -468,6 +501,10 @@ function runRotate2() {
   .main-image-2 {
     opacity: 0.2 !important;
     width: 40.3rem !important;
+  }
+  .main-image-3,
+  .main-image-4 {
+    display: none !important;
   }
 
   .mobile-hero {
