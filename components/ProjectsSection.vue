@@ -8,71 +8,6 @@
       <span class="symbol-span">⫸</span>
     </h2>
     <div class="projects-grid">
-      <a
-        class="photo-anchor"
-        target="_blank"
-        href="https://unique-bublanina-f4b6de.netlify.app/"
-      >
-        <img
-          data-aos="fade-right"
-          data-aos-duration="1800"
-          data-aos-easing="ease-out-back"
-          class="projects-img"
-          src="@/assets/images/3.jpg"
-          alt=""
-      /></a>
-      <div
-        data-aos="fade-right"
-        data-aos-duration="1800"
-        data-aos-easing="ease-out-back"
-        data-aos-delay="300"
-        class="projects-text-box projects-text-box-1"
-      >
-        <h3 class="projects-heading">Drink e-commerce</h3>
-        <ul>
-          <li>Responsive drink e-commerce website.</li>
-          <li>Fresh & simple ui/ux design.</li>
-          <li>Building blocks: Vue3, Pinia, Firebase</li>
-        </ul>
-        <div class="visit-box">
-          <a target="_blank" href="https://unique-bublanina-f4b6de.netlify.app/"
-            ><button class="visit">Visit</button></a
-          >
-        </div>
-      </div>
-      <a
-        class="photo-anchor"
-        target="_blank"
-        href="https://solemensis.github.io/Cloud-gaming-services/"
-      >
-        <img
-          data-aos="fade-right"
-          data-aos-duration="1800"
-          data-aos-easing="ease-out-back"
-          class="projects-img"
-          src="@/assets/images/2.jpg"
-      /></a>
-      <div
-        data-aos="fade-right"
-        data-aos-duration="1800"
-        data-aos-easing="ease-out-back"
-        data-aos-delay="300"
-        class="projects-text-box projects-text-box-2"
-      >
-        <h3 class="projects-heading">Cloud Gaming Services</h3>
-        <ul>
-          <li>Responsive landing page of a digital product.</li>
-          <li>Building blocks: Html, Css, Javascript</li>
-        </ul>
-        <div class="visit-box">
-          <a
-            target="_blank"
-            href="https://solemensis.github.io/Cloud-gaming-services/"
-          >
-            <button class="visit">Visit</button></a
-          >
-        </div>
-      </div>
       <a class="photo-anchor" target="_blank" href="https://emaria.vercel.app/">
         <img
           data-aos="fade-right"
@@ -111,6 +46,40 @@
       <a
         class="photo-anchor"
         target="_blank"
+        href="https://solemensis.github.io/Cloud-gaming-services/"
+      >
+        <img
+          data-aos="fade-right"
+          data-aos-duration="1800"
+          data-aos-easing="ease-out-back"
+          class="projects-img"
+          src="@/assets/images/2.jpg"
+      /></a>
+      <div
+        data-aos="fade-right"
+        data-aos-duration="1800"
+        data-aos-easing="ease-out-back"
+        data-aos-delay="300"
+        class="projects-text-box projects-text-box-2"
+      >
+        <h3 class="projects-heading">Cloud Gaming Services</h3>
+        <ul>
+          <li>Responsive landing page of a digital product.</li>
+          <li>Building blocks: Html, Css, Javascript</li>
+        </ul>
+        <div class="visit-box">
+          <a
+            target="_blank"
+            href="https://solemensis.github.io/Cloud-gaming-services/"
+          >
+            <button class="visit">Visit</button></a
+          >
+        </div>
+      </div>
+
+      <a
+        class="photo-anchor"
+        target="_blank"
         href="https://solemensis.github.io/Woodhelm/"
         ><img
           data-aos="fade-right"
@@ -133,6 +102,38 @@
         </ul>
         <div class="visit-box">
           <a target="_blank" href="https://solemensis.github.io/Woodhelm/"
+            ><button class="visit">Visit</button></a
+          >
+        </div>
+      </div>
+      <a
+        class="photo-anchor"
+        target="_blank"
+        href="https://unique-bublanina-f4b6de.netlify.app/"
+      >
+        <img
+          data-aos="fade-right"
+          data-aos-duration="1800"
+          data-aos-easing="ease-out-back"
+          class="projects-img"
+          src="@/assets/images/3.jpg"
+          alt=""
+      /></a>
+      <div
+        data-aos="fade-right"
+        data-aos-duration="1800"
+        data-aos-easing="ease-out-back"
+        data-aos-delay="300"
+        class="projects-text-box projects-text-box-1"
+      >
+        <h3 class="projects-heading">Drink e-commerce</h3>
+        <ul>
+          <li>Responsive drink e-commerce website.</li>
+          <li>Fresh & simple ui/ux design.</li>
+          <li>Building blocks: Vue3, Pinia, Firebase</li>
+        </ul>
+        <div class="visit-box">
+          <a target="_blank" href="https://unique-bublanina-f4b6de.netlify.app/"
             ><button class="visit">Visit</button></a
           >
         </div>
