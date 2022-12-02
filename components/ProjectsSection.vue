@@ -76,36 +76,6 @@
           >
         </div>
       </div>
-
-      <a
-        class="photo-anchor"
-        target="_blank"
-        href="https://solemensis.github.io/Woodhelm/"
-        ><img
-          data-aos="fade-right"
-          data-aos-duration="1800"
-          data-aos-easing="ease-out-back"
-          class="projects-img"
-          src="@/assets/images/4.jpg"
-      /></a>
-      <div
-        data-aos="fade-right"
-        data-aos-duration="1800"
-        data-aos-easing="ease-out-back"
-        data-aos-delay="300"
-        class="projects-text-box projects-text-box-4"
-      >
-        <h3 class="projects-heading">Woodhelm</h3>
-        <ul>
-          <li>Auditory/Visual ambiance mixer webapp.</li>
-          <li>Building blocks: Html, Css, Javascript</li>
-        </ul>
-        <div class="visit-box">
-          <a target="_blank" href="https://solemensis.github.io/Woodhelm/"
-            ><button class="visit">Visit</button></a
-          >
-        </div>
-      </div>
       <a
         class="photo-anchor"
         target="_blank"
@@ -134,6 +104,35 @@
         </ul>
         <div class="visit-box">
           <a target="_blank" href="https://unique-bublanina-f4b6de.netlify.app/"
+            ><button class="visit">Visit</button></a
+          >
+        </div>
+      </div>
+      <a
+        class="photo-anchor"
+        target="_blank"
+        href="https://solemensis.github.io/Woodhelm/"
+        ><img
+          data-aos="fade-right"
+          data-aos-duration="1800"
+          data-aos-easing="ease-out-back"
+          class="projects-img"
+          src="@/assets/images/4.jpg"
+      /></a>
+      <div
+        data-aos="fade-right"
+        data-aos-duration="1800"
+        data-aos-easing="ease-out-back"
+        data-aos-delay="300"
+        class="projects-text-box projects-text-box-4"
+      >
+        <h3 class="projects-heading">Woodhelm</h3>
+        <ul>
+          <li>Auditory/Visual ambiance mixer webapp.</li>
+          <li>Building blocks: Html, Css, Javascript</li>
+        </ul>
+        <div class="visit-box">
+          <a target="_blank" href="https://solemensis.github.io/Woodhelm/"
             ><button class="visit">Visit</button></a
           >
         </div>
