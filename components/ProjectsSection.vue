@@ -19,7 +19,7 @@
         />
       </a>
       <div
-        data-aos="zoom-in"
+        data-aos="zoom-out"
         data-aos-duration="1500"
         data-aos-easing="ease-out-back"
         data-aos-delay="300"
@@ -56,7 +56,7 @@
           src="@/assets/images/2.webp"
       /></a>
       <div
-        data-aos="zoom-in"
+        data-aos="zoom-out"
         data-aos-duration="1500"
         data-aos-easing="ease-out-back"
         data-aos-delay="300"
@@ -90,7 +90,7 @@
           alt=""
       /></a>
       <div
-        data-aos="zoom-in"
+        data-aos="zoom-out"
         data-aos-duration="1500"
         data-aos-easing="ease-out-back"
         data-aos-delay="300"
@@ -120,7 +120,7 @@
           src="@/assets/images/4.webp"
       /></a>
       <div
-        data-aos="zoom-in"
+        data-aos="zoom-out"
         data-aos-duration="1500"
         data-aos-easing="ease-out-back"
         data-aos-delay="300"
@@ -130,6 +130,10 @@
         <ul>
           <li>Auditory/Visual ambiance mixer webapp.</li>
           <li>Building blocks: Html, Css, Javascript</li>
+          <li>
+            <span style="color: orangered">*</span> Page speed needs to be
+            optimized.
+          </li>
         </ul>
         <div class="visit-box">
           <a target="_blank" href="https://solemensis.github.io/Woodhelm/"
