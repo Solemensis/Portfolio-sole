@@ -11,7 +11,7 @@
       <a class="photo-anchor" target="_blank" href="https://emaria.vercel.app/">
         <img
           data-aos="fade-right"
-          data-aos-duration="1800"
+          data-aos-duration="1500"
           data-aos-easing="ease-out-back"
           class="projects-img"
           src="@/assets/images/1.jpg"
@@ -19,8 +19,8 @@
         />
       </a>
       <div
-        data-aos="fade-right"
-        data-aos-duration="1800"
+        data-aos="zoom-in"
+        data-aos-duration="1500"
         data-aos-easing="ease-out-back"
         data-aos-delay="300"
         class="projects-text-box projects-text-box-3"
@@ -50,14 +50,14 @@
       >
         <img
           data-aos="fade-right"
-          data-aos-duration="1800"
+          data-aos-duration="1500"
           data-aos-easing="ease-out-back"
           class="projects-img"
           src="@/assets/images/2.jpg"
       /></a>
       <div
-        data-aos="fade-right"
-        data-aos-duration="1800"
+        data-aos="zoom-in"
+        data-aos-duration="1500"
         data-aos-easing="ease-out-back"
         data-aos-delay="300"
         class="projects-text-box projects-text-box-2"
@@ -83,15 +83,15 @@
       >
         <img
           data-aos="fade-right"
-          data-aos-duration="1800"
+          data-aos-duration="1500"
           data-aos-easing="ease-out-back"
           class="projects-img"
           src="@/assets/images/3.jpg"
           alt=""
       /></a>
       <div
-        data-aos="fade-right"
-        data-aos-duration="1800"
+        data-aos="zoom-in"
+        data-aos-duration="1500"
         data-aos-easing="ease-out-back"
         data-aos-delay="300"
         class="projects-text-box projects-text-box-1"
@@ -114,14 +114,14 @@
         href="https://solemensis.github.io/Woodhelm/"
         ><img
           data-aos="fade-right"
-          data-aos-duration="1800"
+          data-aos-duration="1500"
           data-aos-easing="ease-out-back"
           class="projects-img"
           src="@/assets/images/4.jpg"
       /></a>
       <div
-        data-aos="fade-right"
-        data-aos-duration="1800"
+        data-aos="zoom-in"
+        data-aos-duration="1500"
         data-aos-easing="ease-out-back"
         data-aos-delay="300"
         class="projects-text-box projects-text-box-4"

@@ -118,7 +118,6 @@ function runRotate2() {
           ></path>
         </svg>
       </div>
-
       <div class="blob blob-2" style="">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 317.5 353.7">
           <path
@@ -167,7 +166,7 @@ function runRotate2() {
   animation: blob-move 8s infinite alternate ease-out;
 }
 
-.blob-1 {
+.blob-3 {
   animation-delay: 3000ms;
   opacity: 0.09;
 }
