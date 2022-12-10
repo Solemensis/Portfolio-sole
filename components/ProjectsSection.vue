@@ -14,7 +14,7 @@
           data-aos-duration="1500"
           data-aos-easing="ease-out-back"
           class="projects-img"
-          src="@/assets/images/1.jpg"
+          src="@/assets/images/1.webp"
           alt=""
         />
       </a>
@@ -53,7 +53,7 @@
           data-aos-duration="1500"
           data-aos-easing="ease-out-back"
           class="projects-img"
-          src="@/assets/images/2.jpg"
+          src="@/assets/images/2.webp"
       /></a>
       <div
         data-aos="zoom-in"
@@ -86,7 +86,7 @@
           data-aos-duration="1500"
           data-aos-easing="ease-out-back"
           class="projects-img"
-          src="@/assets/images/3.jpg"
+          src="@/assets/images/3.webp"
           alt=""
       /></a>
       <div
@@ -117,7 +117,7 @@
           data-aos-duration="1500"
           data-aos-easing="ease-out-back"
           class="projects-img"
-          src="@/assets/images/4.jpg"
+          src="@/assets/images/4.webp"
       /></a>
       <div
         data-aos="zoom-in"
