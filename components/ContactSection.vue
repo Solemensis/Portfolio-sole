@@ -9,7 +9,7 @@
     <div class="contact-flex">
       <div
         data-aos="fade-left"
-        data-aos-duration="2200"
+        data-aos-duration="1600"
         data-aos-easing="ease-out-back"
         data-aos-delay="250"
         class="contact-text"
@@ -49,7 +49,7 @@
       </div>
       <div
         data-aos="fade-left"
-        data-aos-duration="2200"
+        data-aos-duration="1600"
         data-aos-easing="ease-out-back"
       >
         <img
